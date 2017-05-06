@@ -1,0 +1,11 @@
+birth [ver. 0.3.5]
+
+fix:
+	*	unite birth and editor
+	*	double click on person should lead to the next birthday (even it will happen next year)
+	
+add:
+	+	run birth in setting up time (script or daemon or !use cron - make utility!)
+	+	birth: messages should be sorted by date 
+	+	tray icon
+	+	sign of year: to color key-words

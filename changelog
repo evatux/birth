@@ -1,0 +1,9 @@
+birth [ver. 0.3.5]
+
+fix:
+	*	unite birth and editor
+	*	double click on person should lead to the next birthday (even it will happen next year)
+	*	refactoring structure and source code
+
+add:
+	+	birth: messages should be sorted by date 

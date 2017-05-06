@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>cakes/cake01.png</file>
+    <file>cakes/cake02.png</file>
+    <file>cakes/cake03.png</file>
+    <file>cakes/cake04.png</file>
+    <file>zodiak/1.bmp</file>
+    <file>zodiak/2.bmp</file>
+    <file>zodiak/3.bmp</file>
+    <file>zodiak/4.bmp</file>
+    <file>zodiak/5.bmp</file>
+    <file>zodiak/6.bmp</file>
+    <file>zodiak/7.bmp</file>
+    <file>zodiak/8.bmp</file>
+    <file>zodiak/9.bmp</file>
+    <file>zodiak/10.bmp</file>
+    <file>zodiak/11.bmp</file>
+    <file>zodiak/12.bmp</file>
+    <file>zodiak/zodiak.ico</file>
+</qresource>
+</RCC>
