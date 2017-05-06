@@ -7,6 +7,8 @@ TARGET = birth
 DEPENDPATH += .
 INCLUDEPATH += .
 
+QT += widgets
+
 # Input
 HEADERS += difdatedialog.h \
            editorform.h \

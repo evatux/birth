@@ -7,12 +7,11 @@
 #include <QDate>
 #include <QString>
 
-QT_BEGIN_NAMESPACE
 class QLabel;
 class QDateEdit;
 class QSpinBox;
 class QCheckBox;
-QT_END_NAMESPACE
+class QPushButton;
 
 class DifDateDialog : public QDialog
 {

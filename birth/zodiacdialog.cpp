@@ -1,10 +1,23 @@
 // version 0.1
 
+#if QT_VERSION < 0x050000
 #include <QtGui>
+#else
+#include <QtWidgets>
+#endif
 
-#include "zodiacdialog.h"
 #include <QDir>
 #include <QMessageBox>
+#include <QDialog>
+#include <QLabel>
+#include <QDateEdit>
+#include <QPushButton>
+#include <QLayout>
+#include <QPlainTextEdit>
+#include <QImage>
+#include <QPixmap>
+
+#include "zodiacdialog.h"
 
 ZodiacDialog::ZodiacDialog(QWidget *parent = 0) : QDialog(parent)
 {

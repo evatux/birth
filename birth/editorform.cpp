@@ -1,13 +1,31 @@
 // version 0.3.4
 
+#if QT_VERSION < 0x050000
 #include <QtGui>
+#else
+#include <QtWidgets>
+#endif
+
+#include <QProcess>
+#include <QColor>
+#include <QSettings>
+
+#include <QAction>
+#include <QMenu>
+#include <QCalendarWidget>
+#include <QListWidget>
+#include <QListWidgetItem>
+#include <QLabel>
+#include <QLCDNumber>
+#include <QGroupBox>
+#include <QLineEdit>
+#include <QSpinBox>
+#include <QLayout>
+#include <QMenuBar>
 
 #include "editorform.h"
 #include "../include/birthUnit.h"
 #include "birth.h"
-#include <QProcess>
-#include <QColor>
-#include <QSettings>
 
 EditorForm::EditorForm() //: settings(QApplication::organizationName(), QApplication::applicationName())
 {
@@ -499,7 +517,11 @@ void EditorForm::createViewGroupBox()
 	lcdNumber->setMaximumWidth(96);
 	lcdNumber->setMinimumWidth(96);
 	lcdNumber->setSegmentStyle(QLCDNumber::Flat);
+#if QT_VERSION < 0x050000
 	lcdNumber->setNumDigits(3);
+#else
+	lcdNumber->setDigitCount(3);
+#endif
 
 	QGridLayout *layout = new QGridLayout;
 	layout->setMargin(5);

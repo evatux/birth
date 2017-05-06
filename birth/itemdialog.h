@@ -7,13 +7,11 @@
 
 #include <QString>
 #include <QDate>
-
-QT_BEGIN_NAMESPACE
-class QLabel;
-class QLineEdit;
-class QDateEdit;
-class QPushButton;
-QT_END_NAMESPACE
+#include <QLabel>
+#include <QLineEdit>
+#include <QDateEdit>
+#include <QPushButton>
+#include <QLayout>
 
 class ItemDialog : public QDialog
 {

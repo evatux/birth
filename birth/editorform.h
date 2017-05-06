@@ -6,7 +6,6 @@
 #include <QMainWindow>
 #include <QSettings>
 
-QT_BEGIN_NAMESPACE
 class QAction;
 class QMenu;
 class QCalendarWidget;
@@ -16,7 +15,9 @@ class QLabel;
 class QLCDNumber;
 class QGroupBox;
 class QLineEdit;
-QT_END_NAMESPACE
+class QSpinBox;
+class QLayout;
+class QMenuBar;
 
 #include "../include/birthUnit.h"
 #include "../include/zodiacUnit.h"

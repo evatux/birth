@@ -3,21 +3,19 @@
 #ifndef ZODIACDIALOG_H
 #define ZODIACDIALOG_H
 
-#include <QDialog>
-
 #include <QString>
 #include <QDate>
+
 #include "../include/zodiacUnit.h"
 #include "../include/birthUnit.h"
 
-QT_BEGIN_NAMESPACE
+class QDialog;
 class QLabel;
 class QDateEdit;
+class QPushButton;
 class QPlainTextEdit;
 class QImage;
 class QPixmap;
-class QPushButton;
-QT_END_NAMESPACE
 
 class ZodiacDialog : public QDialog
 {

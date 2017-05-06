@@ -1,6 +1,17 @@
 // version 0.1
 
+#if QT_VERSION < 0x050000
 #include <QtGui>
+#else
+#include <QtWidgets>
+#endif
+
+#include <QLabel>
+#include <QDateEdit>
+#include <QSpinBox>
+#include <QCheckBox>
+#include <QPushButton>
+#include <QLayout>
 
 #include "difdatedialog.h"
 

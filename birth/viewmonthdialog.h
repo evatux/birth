@@ -3,15 +3,14 @@
 #ifndef VIEWMONTHDIALOG_H
 #define VIEWMONTHDIALOG_H
 
-#include <QDialog>
-
 #include <QString>
-#include "../include/birthUnit.h"
 
-QT_BEGIN_NAMESPACE
-class QListWidget;
+class QDialog;
 class QPushButton;
-QT_END_NAMESPACE
+class QListWidget;
+class QLayout;
+
+#include "../include/birthUnit.h"
 
 class ViewMonthDialog : public QDialog
 {
